@@ -27,7 +27,7 @@ define( 'AWS_ACCESS_KEY_ID', $_ENV["AWS_ACCESS_KEY_ID"]);
 define( 'AWS_SECRET_ACCESS_KEY', $_ENV["AWS_SECRET_ACCESS_KEY"]);
 
 // ** Heroku Postgres settings - from Heroku Environment ** //
-$db = parse_url($_ENV["DATABASE_URL"] ? $_ENV["DATABASE_URL"] : "postgres://okcdeksvmwpnpv:50e9ad8e1087b8dfbc52cf93be3a0f0154c2a757c8a86c113b596bd8ffbfef41@ec2-23-23-241-119.compute-1.amazonaws.com:5432/d8ahj741hmvoiv");
+$db = parse_url($_ENV["DATABASE_URL"] ? $_ENV["DATABASE_URL"] : "postgres://hbfftuwkobgymv:8147829f2aaadfcb9bac7c5c1386484cf678f4598b8854d879dd804ef4364e7f@ec2-174-129-255-99.compute-1.amazonaws.com:5432/d4m27jhr70eeep");
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
