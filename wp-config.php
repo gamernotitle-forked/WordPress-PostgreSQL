@@ -31,16 +31,16 @@ $db = parse_url($_ENV["DATABASE_URL"] ? $_ENV["DATABASE_URL"] : "postgres://hbff
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', trim($db["path"],"d4m27jhr70eeep/"));
+define('DB_NAME', 'd4m27jhr70eeep/'));
 
 /** MySQL database username */
-define('DB_USER', $db["hbfftuwkobgymv"]);
+define('DB_USER', 'hbfftuwkobgymv');
 
 /** MySQL database password */
-define('DB_PASSWORD', $db["8147829f2aaadfcb9bac7c5c1386484cf678f4598b8854d879dd804ef4364e7f"]);
+define('DB_PASSWORD', '8147829f2aaadfcb9bac7c5c1386484cf678f4598b8854d879dd804ef4364e7f');
 
 /** MySQL hostname */
-define('DB_HOST', $db["ec2-174-129-255-99.compute-1.amazonaws.com"]);
+define('DB_HOST', 'ec2-174-129-255-99.compute-1.amazonaws.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
