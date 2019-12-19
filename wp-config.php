@@ -31,7 +31,7 @@ $db = parse_url($_ENV["DATABASE_URL"] ? $_ENV["DATABASE_URL"] : "postgres://hbff
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'd4m27jhr70eeep/'));
+define('DB_NAME', 'd4m27jhr70eeep'));
 
 /** MySQL database username */
 define('DB_USER', 'hbfftuwkobgymv');
